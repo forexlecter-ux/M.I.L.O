@@ -1,25 +1,20 @@
-import streamlit as st
+import streamlit
 
-st.set_page_config(layout="wide", page_title="M.I.L.O - Trading System")
-st.title("🚀 M.I.L.O. - Motor Inteligente de Lógica Operativa")
+streamlit.set_page_config(page_title="M.I.L.O", layout="wide")
 
-st.markdown("""
-## Welcome to M.I.L.O Trading System
+streamlit.markdown("# 🚀 M.I.L.O - Motor Inteligente de Lógica Operativa")
 
-This is a professional trading analysis application built with Streamlit.
+streamlit.info("✅ Aplicación cargada exitosamente")
 
-### Features:
-- Real-time CCI analysis
-- Risk management calculations
-- Trading signal generation
-- Performance tracking
+streamlit.write("**Sistema de Trading Avanzado**")
+streamlit.write("\nEsta es la plataforma M.I.L.O para análisis de operaciones CCI.")
 
-Application is loading... Please wait for all modules to initialize.
-""")
+streamlit.divider()
 
-st.success("✅ Application Status: Online")
-st.info("📡 All systems operational and ready for trading analysis.")
+streamlit.write("### Estado del Sistema")
+streamlit.success("Sistema online")
+streamlit.write("Versión: 1.0.0")
+streamlit.write("Fecha: 2025-12-10")
 
-st.divider()
-st.write("System Version: 1.0.0")
-st.write("Last Updated: 2025-12-10")
+streamlit.divider()
+streamlit.write("Espera a que se carguen todos los módulos...")
