@@ -415,4 +415,3 @@ JUSTIFICACIÓN: {justificacion}
 #     print(protocol.signal_output)
 #     print("\n--- Datos CCI ---")
 #     print(json.dumps(cci_data, indent=4))
-"""
