@@ -6,7 +6,7 @@ from milo_protocol import MiloProtocol, VETO_LIMITS, SETUP_TAGS
 from typing import Dict, Any, List
 
 # --- Configuración de Archivos ---
-CCI_DB_FILE = "cci_operations.json"
+CCI_DB_FILE = "/tmp/cci_operations.json"
 
 # --- Funciones de Utilidad para CCI ---
 
